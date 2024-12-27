@@ -1,26 +1,36 @@
 import BlurFade from "@/components/magicui/blur-fade";
 import Section from "@/components/section";
 import { Card, CardContent } from "@/components/ui/card";
-import { Brain, Shield, Zap } from "lucide-react";
+import {
+  Brain,
+  DollarSignIcon,
+  LockKeyholeIcon,
+  Shield,
+  TrendingUpIcon,
+  UnplugIcon,
+  Zap,
+} from "lucide-react";
 
 const problems = [
   {
-    title: "Data Overload",
+    title: "High Operational Costs",
     description:
-      "Businesses struggle to make sense of vast amounts of complex data, missing out on valuable insights that could drive growth and innovation.",
-    icon: Brain,
+      "Small businesses struggle with high fixed expenses, including insurance premiums, internet services, and utilities, which cut into profitability",
+    icon: DollarSignIcon,
   },
   {
-    title: "Slow Decision-Making",
+    title: "Limited Access to Bulk Pricing",
     description:
-      "Traditional data processing methods are too slow, causing businesses to lag behind market changes and miss crucial opportunities.",
-    icon: Zap,
+      "Unlike large corporations, small retailers such as gas stations and convenience stores lack access to wholesale discounts on groceries, drinks, food, and other resale items",
+
+    icon: LockKeyholeIcon,
   },
   {
-    title: "Data Security Concerns",
+    title: "Lack of Community and Support Networks",
     description:
-      "With increasing cyber threats, businesses worry about the safety of their sensitive information when adopting new technologies.",
-    icon: Shield,
+      "Many small businesses operate in isolation, missing opportunities to collaborate, share insights, and leverage partnerships to drive growth and innovation",
+    icon: UnplugIcon,
+    // icon: Shield,
   },
 ];
 
@@ -28,7 +38,7 @@ export default function Component() {
   return (
     <Section
       title="Problem"
-      subtitle="Manually entering your data is a hassle."
+      subtitle="Businesses Struggle to Cut Costs and Grow"
     >
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
         {problems.map((problem, index) => (

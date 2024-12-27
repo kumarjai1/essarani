@@ -265,7 +265,7 @@ export default function Features({
                 ))}
               </Accordion.Root>
             </div>
-            <div
+            {/* <div
               className={`h-[350px] min-h-[200px] w-auto  ${
                 ltr && "lg:order-1"
               }`}
@@ -293,7 +293,7 @@ export default function Features({
               ) : (
                 <div className="aspect-auto h-full w-full rounded-xl border border-neutral-300/50 bg-gray-200 p-1"></div>
               )}
-            </div>
+            </div> */}
 
             <ul
               ref={carouselRef}

@@ -5,25 +5,25 @@ import { Sparkles, Upload, Zap } from "lucide-react";
 const data = [
   {
     id: 1,
-    title: "1. Upload Your Data",
+    title: "1. Register with Us",
     content:
-      "Simply upload your data to our secure platform. We support various file formats and data types to ensure a seamless integration with your existing systems.",
+      "Simply submit your store informatin, including your store name, location, and contact details. Our team will review your application and get back to you within 24 hours.",
     image: "/dashboard.png",
     icon: <Upload className="w-6 h-6 text-primary" />,
   },
   {
     id: 2,
-    title: "2. Click Start",
+    title: "2. Receive Confirmation",
     content:
-      "Our advanced AI algorithms automatically process and analyze your data, extracting valuable insights and patterns that would be difficult to identify manually.",
+      "We send you a confirmation email to your registered email address. Access benefits immediately.",
     image: "/dashboard.png",
     icon: <Zap className="w-6 h-6 text-primary" />,
   },
   {
     id: 3,
-    title: "3. Get Actionable Insights",
+    title: "3. Purchase With Power",
     content:
-      "Receive clear, actionable insights and recommendations based on the AI analysis. Use these insights to make data-driven decisions and improve your business strategies.",
+      "Use your membership at our exclusive distrbutors and receive automatic discounts.",
     image: "/dashboard.png",
     icon: <Sparkles className="w-6 h-6 text-primary" />,
   },

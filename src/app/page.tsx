@@ -1,4 +1,5 @@
 import Blog from "@/components/sections/blog";
+import ContactForm from "@/components/sections/contact-form";
 import CTA from "@/components/sections/cta";
 import FAQ from "@/components/sections/faq";
 import Features from "@/components/sections/features";
@@ -22,13 +23,14 @@ export default function Home() {
       <Problem />
       <Solution />
       <HowItWorks />
-      <TestimonialsCarousel />
-      <Features />
-      <Testimonials />
+      {/* <TestimonialsCarousel /> */}
+      {/* <Features /> */}
+      {/* <Testimonials /> */}
       <Pricing />
       <FAQ />
-      <Blog />
-      <CTA />
+      <ContactForm />
+      {/* <Blog /> */}
+      {/* <CTA /> */}
       <Footer />
     </main>
   );

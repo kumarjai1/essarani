@@ -16,7 +16,7 @@ export default function Footer() {
           <span className="font-bold text-xl">{siteConfig.name}</span>
         </a>
 
-        <div className="grid md:grid-cols-3 lg:grid-cols-4 sm:grid-cols-2 mt-8">
+        {/* <div className="grid md:grid-cols-3 lg:grid-cols-4 sm:grid-cols-2 mt-8">
           {siteConfig.footer.map((section, index) => (
             <div key={index} className="mb-5">
               <h2 className="font-semibold">{section.title}</h2>
@@ -36,7 +36,7 @@ export default function Footer() {
               </ul>
             </div>
           ))}
-        </div>
+        </div> */}
         <div className="max-w-6xl mx-auto border-t py-2 grid md:grid-cols-2 h-full justify-between w-full grid-cols-1 gap-1">
           <span className="text-sm tracking-tight text-foreground">
             Copyright © {new Date().getFullYear()}{" "}
@@ -45,7 +45,7 @@ export default function Footer() {
             </Link>{" "}
             - {siteConfig.description}
           </span>
-          <ul className="flex justify-start md:justify-end text-sm tracking-tight text-foreground">
+          {/* <ul className="flex justify-start md:justify-end text-sm tracking-tight text-foreground">
             <li className="mr-3 md:mx-4">
               <Link href="#" target="_blank" rel="noopener noreferrer">
                 Privacy Policy
@@ -56,7 +56,7 @@ export default function Footer() {
                 Terms of Service
               </Link>
             </li>
-          </ul>
+          </ul> */}
         </div>
       </div>
     </footer>
