@@ -6,16 +6,26 @@ import { RiInstagramFill } from "react-icons/ri";
 export const BLUR_FADE_DELAY = 0.15;
 
 export const siteConfig = {
-  name: "acme.ai",
-  description: "Automate your workflow with AI",
+  name: "JABLU",
+  description: "Small Business, Big Benefits",
   url: process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000",
-  keywords: ["SaaS", "Template", "Next.js", "React", "Tailwind CSS"],
+  keywords: [
+    "distribution",
+    "wholesale",
+    "convenient stores",
+    "gas stations",
+    "retailers",
+    "delivery",
+    "jablu",
+    "beverages",
+    "chips",
+  ],
   links: {
-    email: "support@acme.ai",
-    twitter: "https://twitter.com/magicuidesign",
-    discord: "https://discord.gg/87p2vpsat5",
-    github: "https://github.com/magicuidesign/magicui",
-    instagram: "https://instagram.com/magicuidesign/",
+    email: "hello@essarani.com",
+    // twitter: "https://twitter.com/magicuidesign",
+    // discord: "https://discord.gg/87p2vpsat5",
+    // github: "https://github.com/magicuidesign/magicui",
+    // instagram: "https://instagram.com/magicuidesign/",
   },
   header: [
     {
@@ -23,7 +33,7 @@ export const siteConfig = {
       content: {
         main: {
           icon: <Icons.logo className="h-6 w-6" />,
-          title: "AI-Powered Automation",
+          title: "Best Deals Delivered to Your Door",
           description: "Streamline your workflow with intelligent automation.",
           href: "#",
         },
@@ -90,108 +100,113 @@ export const siteConfig = {
     },
   ],
   pricing: [
+    // {
+    //   name: "BASIC",
+    //   href: "#",
+    //   price: "$19",
+    //   period: "month",
+    //   yearlyPrice: "$16",
+    //   features: [
+    //     "1 User",
+    //     "5GB Storage",
+    //     "Basic Support",
+    //     "Limited API Access",
+    //     "Standard Analytics",
+    //   ],
+    //   description: "Perfect for individuals and small projects",
+    //   buttonText: "Subscribe",
+    //   isPopular: false,
+    // },
     {
       name: "BASIC",
       href: "#",
-      price: "$19",
+      price: "$25",
       period: "month",
-      yearlyPrice: "$16",
+      yearlyPrice: "$22",
       features: [
-        "1 User",
-        "5GB Storage",
-        "Basic Support",
-        "Limited API Access",
-        "Standard Analytics",
+        "Lower price on your essential services (e.g. insurance, internet, utilities)",
+        "Exclusive discounts on groceries, beverages and supplies",
+        "Delivery and pickup services",
+        "Vetted tech professionals",
+        "Dedicated support team",
+        "Community access",
       ],
-      description: "Perfect for individuals and small projects",
+      description: "Ideal for small businesses with one store",
       buttonText: "Subscribe",
-      isPopular: false,
+      isPopular: true,
+      isAvailable: true,
     },
     {
       name: "PRO",
       href: "#",
-      price: "$49",
+      price: "$80",
       period: "month",
-      yearlyPrice: "$40",
+      yearlyPrice: "$68",
       features: [
-        "5 Users",
-        "50GB Storage",
-        "Priority Support",
-        "Full API Access",
-        "Advanced Analytics",
-      ],
-      description: "Ideal for growing businesses and teams",
-      buttonText: "Subscribe",
-      isPopular: true,
-    },
-    {
-      name: "ENTERPRISE",
-      href: "#",
-      price: "$99",
-      period: "month",
-      yearlyPrice: "$82",
-      features: [
-        "Unlimited Users",
-        "500GB Storage",
-        "24/7 Premium Support",
-        "Custom Integrations",
-        "AI-Powered Insights",
+        "Everything in BASIC plus",
+        "Inventory management",
+        "Community events and meetups",
+        "Exclusive new products access",
+        "Broker sale and purchase of new busineseses",
+        "AI-Powered insights",
       ],
       description: "For large-scale operations and high-volume users",
       buttonText: "Subscribe",
       isPopular: false,
+      IsAvailable: false,
     },
   ],
   faqs: [
     {
-      question: "What is acme.ai?",
+      question: "What is Jablu?",
       answer: (
         <span>
-          acme.ai is a platform that helps you build and manage your AI-powered
-          applications. It provides tools and services to streamline the
-          development and deployment of AI solutions.
+          Jablu is a membership program that provides exlusive discounts and
+          services to small businesses via our exclusive network. It is a great
+          way to save money on essentials to run a store and focus on growing
+          your business without the hassle of maintaing all relationships
+          yourself.
         </span>
       ),
     },
     {
-      question: "How can I get started with acme.ai?",
+      question: "How can I get started with Jablu?",
       answer: (
         <span>
-          You can get started with acme.ai by signing up for an account on our
-          website, creating a new project, and following our quick-start guide.
-          We also offer tutorials and documentation to help you along the way.
+          You can get started with Jablu by submitting your information on our
+          form below.
         </span>
       ),
     },
     {
-      question: "What types of AI models does acme.ai support?",
+      question: "What kind of products does Jablu offer?",
       answer: (
         <span>
-          acme.ai supports a wide range of AI models, including but not limited
-          to natural language processing, computer vision, and predictive
-          analytics. We continuously update our platform to support the latest
-          AI technologies.
+          Jablu currently offers discounts on mexican chips and snacks,
+          beverages, smoking products, and more. We plan to expand our product
+          offerings via our distributors to include everything you need to run a
+          store, including liquor.
         </span>
       ),
     },
     {
-      question: "Is acme.ai suitable for beginners in AI development?",
+      question:
+        "Is Jablu suitable for stores that already has distributor relationships?",
       answer: (
         <span>
-          Yes, acme.ai is designed to be user-friendly for both beginners and
-          experienced developers. We offer intuitive interfaces, pre-built
-          templates, and extensive learning resources to help users of all skill
-          levels create AI-powered applications.
+          Yes, our program guarantees better rates than your current vendor
+          prices and passes our exclusive manafacturer prices to you without any
+          disruption to your existing business.
         </span>
       ),
     },
     {
-      question: "What kind of support does acme.ai provide?",
+      question: "What kind of support does Jablu provide?",
       answer: (
         <span>
-          acme.ai provides comprehensive support including documentation, video
-          tutorials, a community forum, and dedicated customer support. We also
-          offer premium support plans for enterprises with more complex needs.
+          Beyond our current offerings, we help you obtain dedicated tech
+          support and get you better prices for any prodcuts or services you are
+          considering.
         </span>
       ),
     },

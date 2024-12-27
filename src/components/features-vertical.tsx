@@ -181,7 +181,7 @@ export default function Features({
     <section ref={ref} id="features">
       <div className="container">
         <div className="max-w-6xl mx-auto">
-          <div className="mx-auto my-12 h-full grid lg:grid-cols-2 gap-10 items-center">
+          <div className="mx-auto my-12 h-full grid gap-10 items-center">
             <div
               className={` hidden lg:flex order-1 lg:order-[0] ${
                 ltr ? "lg:order-2 lg:justify-end" : "justify-start"
@@ -265,7 +265,7 @@ export default function Features({
                 ))}
               </Accordion.Root>
             </div>
-            <div
+            {/* <div
               className={`h-[350px] min-h-[200px] w-auto  ${
                 ltr && "lg:order-1"
               }`}
@@ -293,7 +293,7 @@ export default function Features({
               ) : (
                 <div className="aspect-auto h-full w-full rounded-xl border border-neutral-300/50 bg-gray-200 p-1"></div>
               )}
-            </div>
+            </div> */}
 
             <ul
               ref={carouselRef}
