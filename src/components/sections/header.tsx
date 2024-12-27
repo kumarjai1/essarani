@@ -42,7 +42,7 @@ export default function Header() {
           className="relative mr-6 flex items-center space-x-2"
         >
           {/* <Icons.logo className="w-auto h-[40px]" /> */}
-          <Image src="/jablu_logo.jpeg" width={60} height={60} alt="logo" />
+          <Image src="/jablu_logo_p.png" width={70} height={70} alt="logo" />
           <span className="text-xl">{siteConfig.name}</span>
         </Link>
 
