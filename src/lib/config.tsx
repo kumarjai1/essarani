@@ -120,9 +120,9 @@ export const siteConfig = {
     {
       name: "BASIC",
       href: "#early-access",
-      price: "$25",
+      price: "$50",
       period: "month",
-      yearlyPrice: "$22",
+      yearlyPrice: "$45",
       features: [
         "Lower price on your essential services (e.g. insurance, internet, utilities)",
         "Exclusive discounts on groceries, beverages and supplies",
@@ -139,9 +139,9 @@ export const siteConfig = {
     {
       name: "PRO",
       href: "#early-access",
-      price: "$80",
+      price: "$90",
       period: "month",
-      yearlyPrice: "$68",
+      yearlyPrice: "$76.5",
       features: [
         "Everything in BASIC plus",
         "Inventory management",
