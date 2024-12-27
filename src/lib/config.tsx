@@ -119,7 +119,7 @@ export const siteConfig = {
     // },
     {
       name: "BASIC",
-      href: "#",
+      href: "#early-access",
       price: "$25",
       period: "month",
       yearlyPrice: "$22",
@@ -138,7 +138,7 @@ export const siteConfig = {
     },
     {
       name: "PRO",
-      href: "#",
+      href: "#early-access",
       price: "$80",
       period: "month",
       yearlyPrice: "$68",
